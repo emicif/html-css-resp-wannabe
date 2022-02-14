@@ -2,12 +2,14 @@
     #lezioni .row>.left,
     #lezioni .row>.right {
         float: none;
-        text-align: center;
-        width: 100%;
-    
-        
-        
+        width: 100%;        
     }
+
+
+    #lezioni .row>.right {
+        margin-top: 20px;
+    }
+
 
     
     #lezioni {
@@ -19,13 +21,31 @@
 
     .row {
         width: 100%;
-        text-align: center;
+        margin-top: 10px;
     }
 
 
     #steps .row>.left, #steps .row>.central, #steps .row>.right {
         float: none;
-        text-align: center;
+        width: 100%;
+        background-color: white;
+        margin-top: 20px;
+    }
+
+    #steps {
+        background-color: white;
+    }
+
+    #why {
+        background-color: #f2f2cd;
+    }
+
+    img {
+        height: 100px;
+    }
+
+    #why .row>.first, #why .row>.second, #why .row>.third {
+        margin-top: 20px;
     }
 }
 
